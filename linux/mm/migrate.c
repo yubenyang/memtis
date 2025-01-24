@@ -3243,6 +3243,8 @@ static int establish_migrate_target(int node, nodemask_t *used)
 
 	node_demotion[node] = migration_target;
 	node_promotion[migration_target] = node;
+	pr_info("Tiering: Node %d -> Node %d (demotion)\n", node, migration_target);
+	pr_info("Tiering: Node %d <- Node %d (promotion)\n", node, migration_target);
 
 	return migration_target;
 }
