@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BENCHMARKS="XSBench graph500 gapbs-pr liblinear silo btree speccpu-bwaves speccpu-roms"
-#BENCHMARKS="gapbs-pr"
+BENCHMARKS="XSBench"
 NVM_RATIO="1:2 1:8 1:16"
 
 sudo dmesg -c

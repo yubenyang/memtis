@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BENCHMARKS="XSBench graph500 gapbs-pr liblinear silo btree"
-BENCHMARKS="gapbs-pr"
+BENCHMARKS="XSBench"
 sudo dmesg -c
 
 # enable THP

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BIN=/path/to/benchmark
+BIN=/home/yuben/project2/benchmark
 BENCH_RUN="${BIN}/XSBench -t 20 -g 130000 -p 30000000"
 BENCH_DRAM=""
 
